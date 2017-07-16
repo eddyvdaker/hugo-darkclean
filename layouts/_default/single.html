@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+{{ partial "head.html" . }}
+</head>
+<body>
+<header>
+{{ partial "header.html" . }}
+</header>
+
+<main>
+	<article>
+		<h1>{{ .Title }}</h1>
+		<div>
+			{{ .Content }}
+		</div>
+		<div>
+			<ul id="tags">
+			{{ range .Params.tags }}
+			<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+			{{ end }}
+		</ul>
+		</div>
+	</article>
+</main>
+
+<footer>
+{{ partial "footer.html" . }}
+</footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<meta charset="utf-8"/>
+<meta name="author" content="{{ .Site.Author.name }}" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale1.0">
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}"/>
+{{ else }}
+<meta name="description" content="{{ .Site.Params.Meta.description }}"/>
+{{ end }}
+<link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+
+<title>{{ .Site.Title }}</title>

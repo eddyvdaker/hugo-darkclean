@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+{{ partial "head.html" . }}
+</head>
+<body>
+<header>
+{{ partial "header.html" . }}
+</header>
+
+<main>
+	{{ range (where .Data.Pages "Section" "!=" "") }}
+		{{ partial "summary.html" . }}
+	{{ end }}
+	{{ partial "pagination.html" . }}
+</main>
+
+<footer>
+{{ partial "footer.html" . }}
+</footer>
+</body>
+</html>

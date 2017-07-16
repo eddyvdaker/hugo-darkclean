@@ -1,0 +1,102 @@
+body {
+	text-align: justify;
+	background-color: #1b1c17;
+	color: white;
+	margin: 0 auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	max-width: 800px;
+}
+
+pre {
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #0e0b0b;
+}
+
+.summary-title a {
+	color: white;
+	text-decoration: none;
+}
+
+.summary a:hover {
+	text-decoration: underline;
+}
+
+.read-more a {
+	text-align: right;
+	display: block;
+	color: white;
+	margin-top: 10px;
+	
+}
+
+.summary-footer {
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+.header-title  a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu {
+	float: right;
+	text-align: right;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+}
+
+.menu-item {
+	display: inline;
+	padding-right: 10px;
+}
+
+.social {
+	font-size: 14px;
+}
+
+.social ul {
+	text-align: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social li {
+	display: inline;
+	padding-right: 10px;
+}
+
+.social a {
+	color: white;
+	text-decoration: none;
+}
+
+.social a:hover {
+	text-decoration: underline;
+}
+
+.pagination a {
+	color: white;
+	text-decoration: none;
+}
+
+.copyright {
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.copyright a {
+	text-decoration: none;
+}
