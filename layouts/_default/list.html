@@ -10,7 +10,7 @@
 </header>
 
 <main>
-	{{ range (where .Data.Pages "Section" "!=" "") }}
+	{{ range .Paginator.Pages }}
 		{{ partial "summary.html" . }}
 	{{ end }}
 	{{ partial "pagination.html" . }}

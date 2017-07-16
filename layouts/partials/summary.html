@@ -12,12 +12,17 @@
 				<div class="read-more">
 					<a href="{{ .Permalink }}">Read more...</a>
 				</div>
+				<div class="summary-footer">
+					{{ .Date.Format "2006-01-02 15:04" }} - {{ .Site.Author.name }}
+				</div>
+			{{ else }}
+				<div class="summary-footer-no-readmore">
+					{{ .Date.Format "2006-01-02 15:04" }} - {{ .Site.Author.name }}
+				</div>
 			{{ end }}
 		</div>
 		
-		<div class="summary-footer">
-			{{ .Date.Format "2006-01-02 15:04" }} - {{ .Site.Author.name }}
-		</div>
+
 		<hr> 
 	</div>
 </article>
