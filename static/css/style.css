@@ -37,6 +37,12 @@ pre {
 	padding-bottom: 10px;
 }
 
+.summary-footer-no-readmore {
+	padding-top: 30px;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
 .header-title  a {
 	color: white;
 	text-decoration: none;

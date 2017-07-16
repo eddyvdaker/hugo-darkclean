@@ -1,0 +1,41 @@
+baseURL = "http://example.org"
+languageCode = "en-us"
+title = "Hugo site with DarkClean theme"
+theme = "DarkClean"
+
+[author]
+name = "Your Name"
+
+[params]
+license = "License text"
+license_link = "http://link.com/to/license.txt"
+
+[params.meta]
+description = "This is the discription for the site"
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+name = "Theme"
+url = "https://github.com/eddyvdaker/hugo-darkclean"
+weight = 2
+
+[[menu.main]]
+name = "Hugo"
+url = "https://gohugo.io/"
+weight = 3
+
+[[menu.social]]
+name = "Twitter"
+url = "https://twitter.com/"
+
+[[menu.social]]
+name = "Github"
+url = "https:github.com/"
+
+[[menu.social]]
+name = "email"
+url = "mailto:example@example.org"
