@@ -1,10 +1,10 @@
 name = "DarkClean"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://github.com/eddyvdaker/hugo-darkclean/blob/master/LICENSE.md"
 description = "Very minimal, dark personal blog theme for Hugo theme."
-homepage = "http://siteforthistheme.com/"
+homepage = "https://github.com/eddyvdaker/hugo-darkclean"
 tags = ["minimal","blog","clean","personal","dark"]
-features = []
+features = ["blog"]
 min_version = "0.24.1"
 
 [author]
